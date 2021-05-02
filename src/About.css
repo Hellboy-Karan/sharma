@@ -1,0 +1,19 @@
+.bgcolor-about {
+    background: white   ;
+}
+
+.img-block {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.heading:hover {
+    border: 1px solid rgb(185, 77, 77);
+    padding: 10px;
+    background: rgba(29, 27, 28, 0.425);
+    color: white;
+    border-radius: 50px;
+}

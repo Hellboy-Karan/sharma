@@ -1,0 +1,68 @@
+.Container-footer {
+    background: linear-gradient(217deg, rgba(212, 199, 199, 0.8) 0%,rgba(255,0,0,10) 50%, rgba(255,0,0,0) 100%);
+}
+
+.footer-items {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-list {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list:hover {
+    text-decoration: black;
+    color: black;
+}
+
+.footer-main {
+    padding: 10px;
+}
+
+.footer-main:hover {
+    padding: 10px;
+    border: 2px solid rgb(16, 16, 17);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-follow {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-row {
+    display: flex;
+    text-align: center;
+    padding-left: 32%;
+}
+
+.fa-facebook-square, .fa-instagram-square, 
+.fa-linkedin, .fa-twitter-square {
+    font-size: 40px;
+}
+
+.fa-facebook-square:hover, .fa-instagram-square:hover, 
+.fa-linkedin:hover, .fa-twitter-square:hover {
+    font-size: 50px;
+    padding: 2px;
+    color: rgb(145, 167, 158);
+}
+
+.gap-follow {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: rgb(131, 36, 150);
+}
+
+.gap-follow:hover {
+    background: chocolate;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    border: 2px solid rgb(230, 212, 53);
+}

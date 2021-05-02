@@ -1,0 +1,152 @@
+.container {
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.row {
+    content: '';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.col {
+    margin: 5px;
+}
+
+.btn {
+    padding: 5px 20px 5px 20px ;
+    font-weight: bold;
+    background: rgb(218, 32, 57);
+    border-radius: 20px;
+}
+
+.btn:hover {
+    padding: 10px 25px 10px 25px ;
+    background: rgb(26, 24, 24);
+    color: white;
+    font-size: 15px;
+}
+
+.text-gallery {
+    font-size: 35px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.continer-pv {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(204, 196, 196);
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+.block-pv {
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.row-pv::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-pv {
+    float: left;
+    width: 32.5%;
+    height: auto;
+    padding-left: 3px;
+    padding-right: 4px;
+    margin-bottom: 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+
+.resize {
+    width: 100%;
+    height: auto;
+}
+
+.videosize {
+    height: 30%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .col-pv {
+        float: left;
+        width: 32%;
+        height: auto;
+        padding-left: 2px;
+        margin-left: 1px;
+        margin-bottom: 8px;
+    }
+
+    .resize {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .col-pv {
+        float: left;
+        width: 49%;
+        height: auto;
+        padding-left: 2px;
+        margin-left: 1px;
+        margin-bottom: 8px;
+
+    }
+
+    .resize {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .col-pv {
+        float: left;
+        width: 100%;
+        height: auto;
+        padding-left: 2px;
+        margin-left: 1px;
+        margin-bottom: 8px;
+    }
+
+    .resize {
+        width: 100%;
+        height: auto;
+    }
+}
+

@@ -4,7 +4,7 @@ import {
   Switch,
   Redirect
 } from 'react-router-dom';
-import './App.css';
+import './css/App.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Home from './Home';

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './Gallery.css';
+import './css/Gallery.css';
 import ReactPlayer from 'react-player';
-import English from './English.mp4';
-import Hindi from './Hindi.mp4';
+import English from './videos/English.mp4';
+import Hindi from './videos/Hindi.mp4';
 
 const Gallery = () => {
     const [show, setShow] = useState(true);

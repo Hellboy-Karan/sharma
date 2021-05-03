@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import './css/Home.css';
 import HomeContainer from './Homecontainer';
 import Slider from './Slider';
 

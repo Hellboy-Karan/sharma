@@ -51,35 +51,35 @@ const Gallery = () => {
                                     <div className='col-pv'>
                                         <div className='card'>
                                             <a href={Blueriver} target='_blank' rel='noreferrer'>
-                                                <img className='resize' src={Blueriver} alt='Handsome Picture' />
+                                                <img className='resize' src={Blueriver} alt='Handsome' />
                                             </a>
                                         </div>
                                     </div>
                                     <div className='col-pv'>
                                         <div className='card'>
                                             <a href={Tree} target='_blank' rel='noreferrer'>
-                                                <img className='resize' src={Tree} alt='Handsome Picture' />
+                                                <img className='resize' src={Tree} alt='Handsome' />
                                             </a>
                                         </div>
                                     </div>
                                     <div className='col-pv'>
                                         <div className='card'>
                                             <a href={Handcamera} target='_blank' rel='noreferrer'>
-                                                <img className='resize' src={Handcamera} alt='Handsome Picture' />
+                                                <img className='resize' src={Handcamera} alt='Handsome' />
                                             </a>
                                         </div>
                                     </div>
                                     <div className='col-pv'>
                                         <div className='card'>
                                             <a href={Mountain} target='_blank' rel='noreferrer'>
-                                                <img className='resize' src={Mountain} alt='Handsome Picture' />
+                                                <img className='resize' src={Mountain} alt='Handsome' />
                                             </a>
                                         </div>
                                     </div>
                                     <div className='col-pv'>
                                         <div className='card'>
                                             <a href={Birthday} target='_blank' rel='noreferrer'>
-                                                <img className='resize' src={Birthday} alt='Handsome Picture' />
+                                                <img className='resize' src={Birthday} alt='Handsome' />
                                             </a>
                                         </div>
                                     </div>

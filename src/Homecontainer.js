@@ -12,7 +12,7 @@ const Homecontainer = () => {
                     <div className="Row">
                         <div className='Col-2 mpg' >
                             <div className='card'>
-                                <img className='resize' src={Wedding} alt='Handsome Picture' />
+                                <img className='resize' src={Wedding} alt='Handsome' />
                             </div>
                         </div>
                         <div className='Col-2 mpg'>
@@ -26,7 +26,7 @@ const Homecontainer = () => {
                     <div className="Row">
                         <div className='Col-2 mpg float-change-1' >
                             <div className='card'>
-                                <img className='resize' src={Birthday} alt='Handsome Picture' />
+                                <img className='resize' src={Birthday} alt='Handsome' />
                             </div>
                         </div>
                         <div className='Col-2 mpg float-change-2'>
@@ -40,7 +40,7 @@ const Homecontainer = () => {
                     <div className="Row">
                         <div className='Col-2 mpg' >
                             <div className='card'>
-                                <img className='resize' src={Vacation} alt='Handsome Picture' />
+                                <img className='resize' src={Vacation} alt='Handsome' />
                             </div>
                         </div>
                         <div className='Col-2 mpg'>

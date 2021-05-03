@@ -11,7 +11,7 @@ const About = () => {
                     <hr />
                     <div className='Row'>
                         <div className='Col-2'>
-                            <img className='img-block' src={Vacation} alt='Handsome Picture' />
+                            <img className='imge-block' src={Vacation} alt='Handsome' />
                         </div>
                         <div className='Col-2'>
                             <p>the quantities, characters, or symbols on which operations are performed by a computer,

@@ -1,7 +1,7 @@
 import React from 'react';
-import Birthday from './images/Happy-Birthday.png'
-import Vacation from './images/vacation.jpg'
-import Wedding from './images/tulum-wedding.jpg'
+import Birthday from './media/Happy-Birthday.png'
+import Vacation from './media/vacation.jpg'
+import Wedding from './media/tulum-wedding.jpg'
 
 const Homecontainer = () => {
 

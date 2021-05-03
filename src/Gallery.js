@@ -1,8 +1,14 @@
 import React, { useState } from 'react';
 import './css/Gallery.css';
 import ReactPlayer from 'react-player';
-import English from './videos/English.mp4';
-import Hindi from './videos/Hindi.mp4';
+import English from './video/English.mp4';
+import Hindi from './video/Hindi.mp4';
+import Blueriver from './media/blueriver.jpg';
+import Handcamera from './media/handcamera.jpg';
+import Mountain from './media/mountain.jpg';
+import Tree from './media/tree.jpg';
+import Birthday from './media/Happy-Birthday.png';
+
 
 const Gallery = () => {
     const [show, setShow] = useState(true);
@@ -44,36 +50,36 @@ const Gallery = () => {
                                 <div className='row-pv'>
                                     <div className='col-pv'>
                                         <div className='card'>
-                                            <a href='https://mdbootstrap.com/img/Photos/Slides/img%20(131).jpg' target='_blank'>
-                                                <img className='resize' src='https://mdbootstrap.com/img/Photos/Slides/img%20(131).jpg' alt='Handsome Picture' />
+                                            <a href={Blueriver} target='_blank'>
+                                                <img className='resize' src={Blueriver} alt='Handsome Picture' />
                                             </a>
                                         </div>
                                     </div>
                                     <div className='col-pv'>
                                         <div className='card'>
-                                            <a href='https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg' target='_blank'>
-                                                <img className='resize' src='https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg' alt='Handsome Picture' />
+                                            <a href={Tree} target='_blank'>
+                                                <img className='resize' src={Tree} alt='Handsome Picture' />
                                             </a>
                                         </div>
                                     </div>
                                     <div className='col-pv'>
                                         <div className='card'>
-                                            <a href='https://mdbootstrap.com/img/Photos/Slides/img%20(132).jpg' target='_blank'>
-                                                <img className='resize' src='https://mdbootstrap.com/img/Photos/Slides/img%20(132).jpg' alt='Handsome Picture' />
+                                            <a href={Handcamera} target='_blank'>
+                                                <img className='resize' src={Handcamera} alt='Handsome Picture' />
                                             </a>
                                         </div>
                                     </div>
                                     <div className='col-pv'>
                                         <div className='card'>
-                                            <a href='https://mdbootstrap.com/img/Photos/Slides/img%20(133).jpg' target='_blank'>
-                                                <img className='resize' src='https://mdbootstrap.com/img/Photos/Slides/img%20(133).jpg' alt='Handsome Picture' />
+                                            <a href={Mountain} target='_blank'>
+                                                <img className='resize' src={Mountain} alt='Handsome Picture' />
                                             </a>
                                         </div>
                                     </div>
                                     <div className='col-pv'>
                                         <div className='card'>
-                                            <a href='https://mdbootstrap.com/img/Photos/Slides/img%20(133).jpg' target='_blank'>
-                                                <img className='resize' src='https://mdbootstrap.com/img/Photos/Slides/img%20(134).jpg' alt='Handsome Picture' />
+                                            <a href={Birthday} target='_blank'>
+                                                <img className='resize' src={Birthday} alt='Handsome Picture' />
                                             </a>
                                         </div>
                                     </div>

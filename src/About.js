@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/About.css';
+import Vacation from './media/vacation.jpg';
 
 const About = () => {
     return (
@@ -10,7 +11,7 @@ const About = () => {
                     <hr />
                     <div className='Row'>
                         <div className='Col-2'>
-                            <img className='img-block' src='https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png' alt='Handsome Picture' />
+                            <img className='img-block' src={Vacation} alt='Handsome Picture' />
                         </div>
                         <div className='Col-2'>
                             <p>the quantities, characters, or symbols on which operations are performed by a computer,

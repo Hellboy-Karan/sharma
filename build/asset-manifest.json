@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce22a6d1.chunk.css",
+    "main.js": "/static/js/main.b45cbb9b.chunk.js",
+    "main.js.map": "/static/js/main.b45cbb9b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c8bde104.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c8bde104.js.map",
+    "static/js/2.2736bcb2.chunk.js": "/static/js/2.2736bcb2.chunk.js",
+    "static/js/2.2736bcb2.chunk.js.map": "/static/js/2.2736bcb2.chunk.js.map",
+    "static/js/3.5efdd81e.chunk.js": "/static/js/3.5efdd81e.chunk.js",
+    "static/js/3.5efdd81e.chunk.js.map": "/static/js/3.5efdd81e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ce22a6d1.chunk.css.map": "/static/css/main.ce22a6d1.chunk.css.map",
+    "static/js/2.2736bcb2.chunk.js.LICENSE.txt": "/static/js/2.2736bcb2.chunk.js.LICENSE.txt",
+    "static/media/English.cf2c2392.mp4": "/static/media/English.cf2c2392.mp4",
+    "static/media/Happy-Birthday.7e98b718.png": "/static/media/Happy-Birthday.7e98b718.png",
+    "static/media/Hindi.644dca68.mp4": "/static/media/Hindi.644dca68.mp4",
+    "static/media/tulum-wedding.3fda935c.jpg": "/static/media/tulum-wedding.3fda935c.jpg",
+    "static/media/vacation.897d4425.jpg": "/static/media/vacation.897d4425.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8bde104.js",
+    "static/js/2.2736bcb2.chunk.js",
+    "static/css/main.ce22a6d1.chunk.css",
+    "static/js/main.b45cbb9b.chunk.js"
+  ]
+}

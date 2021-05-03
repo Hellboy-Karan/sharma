@@ -1,11 +1,11 @@
 import React from 'react';
-import SliderImage from './SliderImage';
+import {Image} from './SliderImage';
 
 const SliderContent = (props) => {
     return (
         <>
             <section>
-                {SliderImage.map((slide, index) => (
+                {Image.map((slide, index) => (
                     <div
                         key={index}
                         className={index === props.activeIndex ? 'slides active' : 'inactive'}>

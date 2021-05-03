@@ -1,5 +1,5 @@
 
-export default [
+export const Image = [
     {
         title: 'First Slide',
         description: 'This is The First Slider of our Carousel.',

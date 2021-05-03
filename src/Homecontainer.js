@@ -24,17 +24,17 @@ const Homecontainer = () => {
                         </div>
                     </div>
                     <div className="Row">
-                        <div className='Col-2 mpg'>
+                        <div className='Col-2 mpg float-change-1' >
+                            <div className='card'>
+                                <img className='resize' src={Birthday} alt='Handsome Picture' />
+                            </div>
+                        </div>
+                        <div className='Col-2 mpg float-change-2'>
                             <strong>BIRTHDAY</strong>
                             <p className='p-font'>the quantities, characters, or symbols on which operations are performed by a computer,
                             which may be stored and transmitted in the form of electrical signals
                             and recorded on magnetic, optical, or mechanical
                              recording media.</p>
-                        </div>
-                        <div className='Col-2 mpg' >
-                            <div className='card'>
-                                <img className='resize' src={Birthday} alt='Handsome Picture' />
-                            </div>
                         </div>
                     </div>
                     <div className="Row">

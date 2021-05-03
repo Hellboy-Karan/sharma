@@ -50,35 +50,35 @@ const Gallery = () => {
                                 <div className='row-pv'>
                                     <div className='col-pv'>
                                         <div className='card'>
-                                            <a href={Blueriver} target='_blank'>
+                                            <a href={Blueriver} target='_blank' rel='noopener'>
                                                 <img className='resize' src={Blueriver} alt='Handsome Picture' />
                                             </a>
                                         </div>
                                     </div>
                                     <div className='col-pv'>
                                         <div className='card'>
-                                            <a href={Tree} target='_blank'>
+                                            <a href={Tree} target='_blank' rel='noopener'>
                                                 <img className='resize' src={Tree} alt='Handsome Picture' />
                                             </a>
                                         </div>
                                     </div>
                                     <div className='col-pv'>
                                         <div className='card'>
-                                            <a href={Handcamera} target='_blank'>
+                                            <a href={Handcamera} target='_blank' rel='noopener'>
                                                 <img className='resize' src={Handcamera} alt='Handsome Picture' />
                                             </a>
                                         </div>
                                     </div>
                                     <div className='col-pv'>
                                         <div className='card'>
-                                            <a href={Mountain} target='_blank'>
+                                            <a href={Mountain} target='_blank' rel='noopener'>
                                                 <img className='resize' src={Mountain} alt='Handsome Picture' />
                                             </a>
                                         </div>
                                     </div>
                                     <div className='col-pv'>
                                         <div className='card'>
-                                            <a href={Birthday} target='_blank'>
+                                            <a href={Birthday} target='_blank' rel='noopener'>
                                                 <img className='resize' src={Birthday} alt='Handsome Picture' />
                                             </a>
                                         </div>

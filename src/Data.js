@@ -11,19 +11,19 @@ import Wedding from './media/tulum-wedding.jpg';
 
 export const HomeData = [
     {
-        src: {Wedding},
+        src: Wedding,
         alt: 'Wedding',
         name: 'WEDDING',
         text: "the quantities, characters, or symbols on which operations are performed by a computer,which may be stored and transmitted in the form of electrical signals and recorded on magnetic, optical, or mechanical recording media."
     },
     {
-        src: {Birthday},
+        src: Birthday,
         alt: 'Birthday',
         name: 'BIRTHDAY',
         text: "the quantities, characters, or symbols on which operations are performed by a computer,which may be stored and transmitted in the form of electrical signals and recorded on magnetic, optical, or mechanical recording media."
     },
     {
-        src: {Vacation},
+        src: Vacation,
         alt: 'Vacation',
         name: 'VACATION',
         text: "the quantities, characters, or symbols on which operations are performed by a computer,which may be stored and transmitted in the form of electrical signals and recorded on magnetic, optical, or mechanical recording media."
@@ -32,34 +32,34 @@ export const HomeData = [
 
 export const GalleryData = [
     {
-        src: { Blueriver },
+        src: Blueriver,
         alt: 'Blue River',
     },
     {
-        src: { Handcamera },
+        src: Handcamera,
         alt: 'Camera',
     },
     {
-        src: { Mountain },
+        src: Mountain,
         alt: 'Mountain',
     },
     {
-        src: { Tree },
+        src: Tree,
         alt: 'Tree',
     },
     {
-        src: { Birthday },
+        src: Birthday,
         alt: 'Birthday',
     },
 ]
 
 export const GalleryVideoData = [
     {
-        src: { English },
+        src: English,
         title: 'English',
     },
     {
-        src: { Hindi },
+        src: Hindi,
         title: 'Hindi',
     },
     {

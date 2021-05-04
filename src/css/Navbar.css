@@ -1,28 +1,42 @@
 .nav-container {
-    background: linear-gradient(217deg, rgba(212, 199, 199, 0.8) 0%,rgba(255,0,0,10) 50%, rgba(255,0,0,0) 100%);
+    background: linear-gradient(217deg, rgba(212, 199, 199, 0.8) 0%, rgba(255,0,0,10) 50%, rgba(255,0,0,0) 100%);
     margin: 0%;
     padding: 0%;
     display: block;
 }
 
+.nav-row {
+    margin: 0 -5px 0 -5px;
+  }
+
+.nav-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav-col {
+    float: left;
+    margin: 10px;
+}
+
+.shift-col {
+    float: right;
+}
+
 .nav-class {
     display: flex;
-    padding: 0%;
-    margin: 0%;
+    flex-direction: row-reverse;
 }
 
 .navbar-brand {
-    margin: 0px 0 0 30px;
+    margin-top: 10%;
+    margin-left: 22%;
     text-decoration: none;
-    padding: 0%;
-    margin: 0%;
 }
 
 .nav-brand {
     text-decoration:none;
-    padding: 0 5 0 5px;
-    margin-top: 12px;
-    padding: 10px;
 }
 
 .text {
@@ -49,13 +63,14 @@
 }
 
 .nav-link {
-    margin: 0px 10px 0 10px;
     text-decoration: none;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin: -10px 20px -10px 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.fa-bars, .fa-times {
+    font-size: 25px;
 }
 
 .nav-link:hover {
@@ -66,4 +81,87 @@
     text-decoration: none;
     font-weight: bold;
     color: black;
+}
+
+.shift {
+    float: right;
+}
+
+/* Mobile Views */
+
+.mobile-nav-container {
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(95, 69, 69, 0.8), rgba(153, 134, 134, 0) 50%, rgba(202, 148, 148, 0.8)100%);
+}
+
+.mobile-nav-wrapper {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+.mobile-nav-item {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+}
+
+.mobile-nav-link {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.mobile-nav-wrapper:hover {
+    background-color: rgba(90, 71, 71, 0.2);
+    margin-top: -7px;
+    margin-bottom: -3px;
+    
+}
+
+.mobile-nav-item:hover {
+    background-color: rgb(180, 162, 162);
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.mobile-nav-link:hover {
+    color: #fff;
+    padding: 20px;
+}
+
+.mobile-nav-col {
+    padding-left: 45%; 
+    padding-top: 2%; 
+    margin: 0;  
+}
+
+.mobile-navbar-brand {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mobile-nav-brand:hover{
+    margin: 0px;
+    padding: 5px 20px 5px 20px;
+}
+
+.mobile-text {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mobile-text:hover {
+    color: rgb(228, 211, 211);
 }

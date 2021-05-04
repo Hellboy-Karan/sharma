@@ -11,19 +11,19 @@ import Wedding from './media/tulum-wedding.jpg';
 
 export const HomeData = [
     {
-        src: '',
+        src: {Wedding},
         alt: 'Wedding',
         name: 'WEDDING',
         text: "the quantities, characters, or symbols on which operations are performed by a computer,which may be stored and transmitted in the form of electrical signals and recorded on magnetic, optical, or mechanical recording media."
     },
     {
-        src: '',
+        src: {Birthday},
         alt: 'Birthday',
         name: 'BIRTHDAY',
         text: "the quantities, characters, or symbols on which operations are performed by a computer,which may be stored and transmitted in the form of electrical signals and recorded on magnetic, optical, or mechanical recording media."
     },
     {
-        src: '',
+        src: {Vacation},
         alt: 'Vacation',
         name: 'VACATION',
         text: "the quantities, characters, or symbols on which operations are performed by a computer,which may be stored and transmitted in the form of electrical signals and recorded on magnetic, optical, or mechanical recording media."

@@ -140,9 +140,9 @@
 }
 
 .mobile-nav-col {
-    padding-left: 45%; 
-    padding-top: 2%; 
-    margin: 0;  
+    text-align: center;
+    align-items: center;
+    margin: 2% 10% 0 15%;  
 }
 
 .mobile-navbar-brand {
@@ -155,13 +155,13 @@
     padding: 5px 20px 5px 20px;
 }
 
+.mobile-text:hover {
+    color: rgb(228, 211, 211);
+}
+
 .mobile-text {
     color: #fff;
     text-decoration: none;
     font-size: 30px;
     font-weight: bold;
-}
-
-.mobile-text:hover {
-    color: rgb(228, 211, 211);
 }

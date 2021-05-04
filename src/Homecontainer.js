@@ -1,7 +1,5 @@
 import React from 'react';
-import Birthday from './media/Happy-Birthday.png'
-import Vacation from './media/vacation.jpg'
-import Wedding from './media/tulum-wedding.jpg'
+import { HomeData } from './Data';
 
 const Homecontainer = () => {
 
@@ -9,48 +7,19 @@ const Homecontainer = () => {
         <>
             <div className='Container'>
                 <div className='Wrapper'>
-                    <div className="Row">
-                        <div className='Col-2 mpg' >
-                            <div className='card'>
-                                <img className='resize' src={Wedding} alt='Handsome' />
+                    {HomeData.map((data, index) => (
+                        <div className="Row" key={index}>
+                            <div className='Col-2 mpg' >
+                                <div className='card'>
+                                    <img className='resize' src={data.src} alt={data.alt} />
+                                </div>
+                            </div>
+                            <div className='Col-2 mpg'>
+                                <strong>{data.name}</strong>
+                                <p className='p-font'>{data.text}</p>
                             </div>
                         </div>
-                        <div className='Col-2 mpg'>
-                            <strong>WEDDING</strong>
-                            <p className='p-font'>the quantities, characters, or symbols on which operations are performed by a computer,
-                            which may be stored and transmitted in the form of electrical signals
-                            and recorded on magnetic, optical, or mechanical
-                             recording media.</p>
-                        </div>
-                    </div>
-                    <div className="Row">
-                        <div className='Col-2 mpg float-change-1' >
-                            <div className='card'>
-                                <img className='resize' src={Birthday} alt='Handsome' />
-                            </div>
-                        </div>
-                        <div className='Col-2 mpg float-change-2'>
-                            <strong>BIRTHDAY</strong>
-                            <p className='p-font'>the quantities, characters, or symbols on which operations are performed by a computer,
-                            which may be stored and transmitted in the form of electrical signals
-                            and recorded on magnetic, optical, or mechanical
-                             recording media.</p>
-                        </div>
-                    </div>
-                    <div className="Row">
-                        <div className='Col-2 mpg' >
-                            <div className='card'>
-                                <img className='resize' src={Vacation} alt='Handsome' />
-                            </div>
-                        </div>
-                        <div className='Col-2 mpg'>
-                            <strong>VACATION</strong>
-                            <p className='p-font'>the quantities, characters, or symbols on which operations are performed by a computer,
-                            which may be stored and transmitted in the form of electrical signals
-                            and recorded on magnetic, optical, or mechanical
-                             recording media.</p>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </>

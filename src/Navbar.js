@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/Navbar.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { Address } from './Data';
 
 const Navbar = () => {
     return (
@@ -14,10 +15,9 @@ const Navbar = () => {
                     </div>
                     <div className='navbar-item'>
                         <ul className='nav-list'>
-                            <Link to='/' className='nav-link'><li><i class="fas fa-home"></i> Home</li></Link>
-                            <Link to='/about' className='nav-link'><li><i class="fas fa-info-circle"></i> About</li></Link>
-                            <Link to='/gallery' className='nav-link'><li><i class="far fa-image"></i> Gallery</li></Link>
-                            <Link to='#signup' className='nav-link'><li><i class="fas fa-user-plus"></i> Signup</li></Link>
+                            {Address.map((text, index) => (
+                                <Link to={text.href} className='nav-link'><li><i class={text.class}></i> {text.name}</li></Link>
+                            ))}
                         </ul>
                     </div>
                 </navbar>
